@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544BD60925206454006C4A12 /* CustomDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544BD60825206454006C4A12 /* CustomDismissAnimationController.swift */; };
+		54501F4F2522478600FFD267 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54501F4E2522478600FFD267 /* Constants.swift */; };
+		54501F512522497E00FFD267 /* VideosListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54501F502522497E00FFD267 /* VideosListingViewModel.swift */; };
+		54501F53252252F000FFD267 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54501F52252252F000FFD267 /* DatabaseManager.swift */; };
+		54501F55252256F300FFD267 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54501F54252256F300FFD267 /* Extensions.swift */; };
+		54C1CF9B251BF795006ADDB6 /* VideoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1CF99251BF795006ADDB6 /* VideoItemTableViewCell.swift */; };
+		54C1CF9C251BF795006ADDB6 /* VideoItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C1CF9A251BF795006ADDB6 /* VideoItemTableViewCell.xib */; };
+		54C1CF9E251C1046006ADDB6 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1CF9D251C1046006ADDB6 /* PlayerView.swift */; };
+		54C1CFA0251C11B7006ADDB6 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1CF9F251C11B7006ADDB6 /* VideoPlayer.swift */; };
+		54C1CFA2251C18F8006ADDB6 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1CFA1251C18F8006ADDB6 /* VideoPlayerViewController.swift */; };
 		54CE145F251B580700E03F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE145E251B580700E03F07 /* AppDelegate.swift */; };
 		54CE1461251B580700E03F07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE1460251B580700E03F07 /* SceneDelegate.swift */; };
-		54CE1463251B580700E03F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE1462251B580700E03F07 /* ViewController.swift */; };
 		54CE1466251B580700E03F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CE1464251B580700E03F07 /* Main.storyboard */; };
 		54CE1469251B580700E03F07 /* TrellVods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54CE1467251B580700E03F07 /* TrellVods.xcdatamodeld */; };
 		54CE146B251B580900E03F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CE146A251B580900E03F07 /* Assets.xcassets */; };
 		54CE146E251B580900E03F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CE146C251B580900E03F07 /* LaunchScreen.storyboard */; };
 		54CE1479251B580900E03F07 /* TrellVodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE1478251B580900E03F07 /* TrellVodsTests.swift */; };
 		54CE1484251B580900E03F07 /* TrellVodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE1483251B580900E03F07 /* TrellVodsUITests.swift */; };
+		54CE1498251BEE3600E03F07 /* VideosListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE1497251BEE3600E03F07 /* VideosListingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544BD60825206454006C4A12 /* CustomDismissAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDismissAnimationController.swift; sourceTree = "<group>"; };
+		54501F4E2522478600FFD267 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		54501F502522497E00FFD267 /* VideosListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListingViewModel.swift; sourceTree = "<group>"; };
+		54501F52252252F000FFD267 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		54501F54252256F300FFD267 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		54C1CF99251BF795006ADDB6 /* VideoItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoItemTableViewCell.swift; sourceTree = "<group>"; };
+		54C1CF9A251BF795006ADDB6 /* VideoItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoItemTableViewCell.xib; sourceTree = "<group>"; };
+		54C1CF9D251C1046006ADDB6 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		54C1CF9F251C11B7006ADDB6 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		54C1CFA1251C18F8006ADDB6 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		54CE145B251B580700E03F07 /* TrellVods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrellVods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CE145E251B580700E03F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54CE1460251B580700E03F07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54CE1462251B580700E03F07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54CE1465251B580700E03F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54CE1468251B580700E03F07 /* TrellVods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrellVods.xcdatamodel; sourceTree = "<group>"; };
 		54CE146A251B580900E03F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +70,7 @@
 		54CE147F251B580900E03F07 /* TrellVodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrellVodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CE1483251B580900E03F07 /* TrellVodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellVodsUITests.swift; sourceTree = "<group>"; };
 		54CE1485251B580900E03F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CE1497251BEE3600E03F07 /* VideosListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544BD604252063C5006C4A12 /* MainFiles */ = {
+			isa = PBXGroup;
+			children = (
+				54CE145E251B580700E03F07 /* AppDelegate.swift */,
+				54CE1460251B580700E03F07 /* SceneDelegate.swift */,
+				54CE1464251B580700E03F07 /* Main.storyboard */,
+				54CE146A251B580900E03F07 /* Assets.xcassets */,
+				54CE146C251B580900E03F07 /* LaunchScreen.storyboard */,
+				54CE1467251B580700E03F07 /* TrellVods.xcdatamodeld */,
+			);
+			path = MainFiles;
+			sourceTree = "<group>";
+		};
+		544BD605252063F2006C4A12 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				54CE1497251BEE3600E03F07 /* VideosListingViewController.swift */,
+				54501F502522497E00FFD267 /* VideosListingViewModel.swift */,
+				54C1CFA1251C18F8006ADDB6 /* VideoPlayerViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		544BD60625206410006C4A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54C1CF99251BF795006ADDB6 /* VideoItemTableViewCell.swift */,
+				54C1CF9A251BF795006ADDB6 /* VideoItemTableViewCell.xib */,
+				54C1CF9D251C1046006ADDB6 /* PlayerView.swift */,
+				54C1CF9F251C11B7006ADDB6 /* VideoPlayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		544BD60725206429006C4A12 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				544BD60825206454006C4A12 /* CustomDismissAnimationController.swift */,
+				54501F4E2522478600FFD267 /* Constants.swift */,
+				54501F52252252F000FFD267 /* DatabaseManager.swift */,
+				54501F54252256F300FFD267 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		54CE1452251B580700E03F07 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +166,11 @@
 		54CE145D251B580700E03F07 /* TrellVods */ = {
 			isa = PBXGroup;
 			children = (
-				54CE145E251B580700E03F07 /* AppDelegate.swift */,
-				54CE1460251B580700E03F07 /* SceneDelegate.swift */,
-				54CE1462251B580700E03F07 /* ViewController.swift */,
-				54CE1464251B580700E03F07 /* Main.storyboard */,
-				54CE146A251B580900E03F07 /* Assets.xcassets */,
-				54CE146C251B580900E03F07 /* LaunchScreen.storyboard */,
+				544BD60725206429006C4A12 /* Helpers */,
+				544BD60625206410006C4A12 /* Views */,
+				544BD605252063F2006C4A12 /* Scenes */,
+				544BD604252063C5006C4A12 /* MainFiles */,
 				54CE146F251B580900E03F07 /* Info.plist */,
-				54CE1467251B580700E03F07 /* TrellVods.xcdatamodeld */,
 			);
 			path = TrellVods;
 			sourceTree = "<group>";
@@ -235,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1CF9C251BF795006ADDB6 /* VideoItemTableViewCell.xib in Resources */,
 				54CE146E251B580900E03F07 /* LaunchScreen.storyboard in Resources */,
 				54CE146B251B580900E03F07 /* Assets.xcassets in Resources */,
 				54CE1466251B580700E03F07 /* Main.storyboard in Resources */,
@@ -262,9 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CE1463251B580700E03F07 /* ViewController.swift in Sources */,
+				54C1CFA0251C11B7006ADDB6 /* VideoPlayer.swift in Sources */,
 				54CE1469251B580700E03F07 /* TrellVods.xcdatamodeld in Sources */,
+				54CE1498251BEE3600E03F07 /* VideosListingViewController.swift in Sources */,
 				54CE145F251B580700E03F07 /* AppDelegate.swift in Sources */,
+				54C1CF9E251C1046006ADDB6 /* PlayerView.swift in Sources */,
+				54501F4F2522478600FFD267 /* Constants.swift in Sources */,
+				54C1CFA2251C18F8006ADDB6 /* VideoPlayerViewController.swift in Sources */,
+				544BD60925206454006C4A12 /* CustomDismissAnimationController.swift in Sources */,
+				54501F55252256F300FFD267 /* Extensions.swift in Sources */,
+				54501F53252252F000FFD267 /* DatabaseManager.swift in Sources */,
+				54C1CF9B251BF795006ADDB6 /* VideoItemTableViewCell.swift in Sources */,
+				54501F512522497E00FFD267 /* VideosListingViewModel.swift in Sources */,
 				54CE1461251B580700E03F07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
