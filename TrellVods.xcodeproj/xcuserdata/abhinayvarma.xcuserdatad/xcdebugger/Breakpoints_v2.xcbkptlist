@@ -39,70 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0BD7C3F3-C01C-4B1C-8380-8AB0C1067217"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "fetchBookmarks(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "14606721-34B9-43EC-9B2A-ADA00D5482EC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "fetchBookmarks(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9B177698-9EB7-4A2A-9C32-14D61EC76A24"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "fetchBookmarks(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "275D1472-B252-4B4C-A75A-CB9D102BF819"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrellVods/MainFiles/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "4BCCF485-199E-48E2-A08D-AC2B69EA3F7E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -114,38 +50,6 @@
             endingLineNumber = "164"
             landmarkName = "bookmarkButtonClicked(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4BCCF485-199E-48E2-A08D-AC2B69EA3F7E - 8903030d9ee3bf76"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TrellVods.VideosListingViewController.bookmarkButtonClicked(Any) -&gt; ()"
-                  moduleName = "TrellVods"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abhinayvarma/Desktop/TrellVods/TrellVods/VCs/VideosListingViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "42">
-               </Location>
-               <Location
-                  uuid = "4BCCF485-199E-48E2-A08D-AC2B69EA3F7E - 2645ad8076a532dd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;TrellVods.VideoItem&gt;&gt;) -&gt; () in TrellVods.VideosListingViewController.bookmarkButtonClicked(Any) -&gt; ()"
-                  moduleName = "TrellVods"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abhinayvarma/Desktop/TrellVods/TrellVods/VCs/VideosListingViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "165"
-                  endingLineNumber = "165"
-                  offsetFromSymbolStart = "115">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -161,54 +65,6 @@
             startingLineNumber = "165"
             endingLineNumber = "165"
             landmarkName = "bookmarkButtonClicked(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3842AFB1-FA33-43BB-8A45-EA9C7DBE4061"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "fetchBookmarks(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "772A96AE-1316-4F1D-B9B8-4B9D496E7A47"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "fetchBookmarks(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1DB2D974-1378-435F-A1F5-590C92ACF222"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "fetchBookmarks(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -231,48 +87,128 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A8A591CC-1722-4F6A-85DD-5A59339A0102"
+            uuid = "6E7BDEB8-DAD6-4490-AEFD-64799FA14143"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
+            filePath = "TrellVods/Scenes/VideoPlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
             endingLineNumber = "89"
-            landmarkName = "checkIfModelIsBookmark(_:)"
+            landmarkName = "onClickFullScreen(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "61C4AA07-AB55-4BC3-9C24-EEF97C6D46EF"
+            uuid = "2D22016F-31D3-4982-B00C-D596D5FB8995"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
+            filePath = "TrellVods/Scenes/VideosListingViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "checkIfModelIsBookmark(_:)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchAllVideos(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5689BD66-EC2B-4DFF-BAAB-A75F3F272660"
+            uuid = "A4275290-3DA3-40E9-9E36-5DF424F06BF1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TrellVods/Helpers/DatabaseManager.swift"
+            filePath = "TrellVods/Scenes/VideosListingViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "checkIfModelIsBookmark(_:)"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchAllVideos(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C5E7390-247E-4D66-83BA-4E1A1F2E6014"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrellVods/Scenes/VideosListingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchAllVideos(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C5E7390-247E-4D66-83BA-4E1A1F2E6014 - 710222b24a4e8e1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrellVods.VideosListingViewModel.fetchAllVideos(() -&gt; ()) -&gt; ()"
+                  moduleName = "TrellVods"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abhinayvarma/Desktop/TrellVods/TrellVods/Scenes/VideosListingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "246">
+               </Location>
+               <Location
+                  uuid = "5C5E7390-247E-4D66-83BA-4E1A1F2E6014 - 21003c65f82f1854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.PHAuthorizationStatus) -&gt; () in TrellVods.VideosListingViewModel.fetchAllVideos(() -&gt; ()) -&gt; ()"
+                  moduleName = "TrellVods"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abhinayvarma/Desktop/TrellVods/TrellVods/Scenes/VideosListingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "141">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBC924D3-CB41-43EA-96BA-855B141CFAF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrellVods/Scenes/VideosListingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchAllVideos(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F038E3D-DE72-4944-B464-17938801F1F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrellVods/Scenes/VideosListingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "iterateAllVideosOnAutorise(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

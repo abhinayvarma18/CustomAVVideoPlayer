@@ -36,25 +36,40 @@ class VideosListingViewModel:NSObject {
     }
     
     func fetchAllVideos(_ completion:@escaping(()->())) {
-           let fetchOptions = PHFetchOptions()
-           fetchOptions.predicate = NSPredicate(format: "mediaType = %d ", PHAssetMediaType.video.rawValue )
-
-           let allVideo = PHAsset.fetchAssets(with: .video, options: fetchOptions)
-           videoCount = allVideo.count
-           allVideo.enumerateObjects { (asset, index, bool) in
-               let imageManager = PHCachingImageManager()
-               imageManager.allowsCachingHighQualityImages = true
-               imageManager.requestAVAsset(forVideo: asset, options: nil, resultHandler: { (asset, audioMix, info) in
-                   if asset != nil {
-                       let avasset = asset as! AVURLAsset
-                       let urlVideo = avasset.url
-                       self.videoAssets.append(urlVideo)
-                       if self.videoCount == self.videoAssets.count {
-                           self.reloadVideos(completion)
-                       }
-                   }
-               })
-           }
+           let photos = PHPhotoLibrary.authorizationStatus()
+           if photos == .notDetermined {
+            PHPhotoLibrary.requestAuthorization({status in
+                if status == .authorized{
+                    self.iterateAllVideosOnAutorise(completion)
+                } else {
+                    
+                }
+            })
+           }else {
+               iterateAllVideosOnAutorise(completion)
+            }
+    }
+    
+    private func iterateAllVideosOnAutorise(_ completion:@escaping(()->())) {
+        let fetchOptions = PHFetchOptions()
+        fetchOptions.predicate = NSPredicate(format: "mediaType = %d ", PHAssetMediaType.video.rawValue )
+        
+        let allVideo = PHAsset.fetchAssets(with: .video, options: fetchOptions)
+        videoCount = allVideo.count
+        allVideo.enumerateObjects { (asset, index, bool) in
+            let imageManager = PHCachingImageManager()
+            imageManager.allowsCachingHighQualityImages = true
+            imageManager.requestAVAsset(forVideo: asset, options: nil, resultHandler: { (asset, audioMix, info) in
+                if asset != nil {
+                    let avasset = asset as! AVURLAsset
+                    let urlVideo = avasset.url
+                    self.videoAssets.append(urlVideo)
+                    if self.videoCount == self.videoAssets.count {
+                        self.reloadVideos(completion)
+                    }
+                }
+            })
+        }
     }
     
     func reloadVideos(_ completion:@escaping(()->())) {

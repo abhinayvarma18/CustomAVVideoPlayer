@@ -86,7 +86,7 @@ class VideoPlayerViewController: UIViewController {
     }
     
     @IBAction func onClickFullScreen(_ sender: Any) {
-    
+        playerView.frame = self.view.bounds
     }
     
     @IBAction func sliderValueChanged(sender: UISlider) {
